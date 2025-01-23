@@ -106,6 +106,7 @@ PACKAGE = \
 	ml-rann \
 	ml-snap \
 	ml-uf3 \
+	ml-vasp \
 	mofff \
 	molfile \
 	netcdf \
@@ -237,6 +238,7 @@ PACKLIB = \
 	rheo \
 	scafacos \
 	machdyn \
+	ml-vasp \
 	vtk \
 	electrode
 
@@ -252,6 +254,7 @@ PACKEXT = \
 	ml-hdnnp \
 	ml-pace \
 	ml-quip \
+	ml-vasp \
 	molfile \
 	netcdf \
 	plumed \
