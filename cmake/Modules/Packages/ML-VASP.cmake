@@ -1,0 +1,7 @@
+find_package(VASPml REQUIRED)
+if(NOT VASPml_FOUND)
+  message(FATAL_ERROR "VASPml library (libvaspml) not found, help CMake to find it by setting VASPML_DIR")
+endif()
+message(STATUS "Found VASPml library: ${VASPML_LIBVASPML}")
+message(STATUS "Found VASPml include directory: ${VASPML_INCLUDE_DIR}")
+target_link_libraries(lammps PRIVATE VASPml::VASPml ${LAPACK_LIBRARIES})
